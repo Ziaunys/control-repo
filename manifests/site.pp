@@ -31,6 +31,6 @@ node default {
   #   class { 'my_class': }
   
   notify { 'test_notify':
-	message => "Hello! This is a test."
+	message => "Hello! This is a test"
   }
 }
