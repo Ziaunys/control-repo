@@ -16,7 +16,7 @@ mod 'puppetlabs-puppet_authorization', '0.5.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
-mod 'puppetlabs-cd4pe', :git => 'git@github.com:puppetlabs/puppetlabs-cd4pe.git', :branch => 'CDPE-1392'
+mod 'cd4pe', :git => 'git@github.com:Ziaunys/puppetlabs-cd4pe.git', :branch => 'CDPE-1392'
 mod 'puppetlabs-hocon', '1.0.1'
 mod 'puppetlabs-docker', '3.2.0'
 mod 'puppetlabs-apt', '6.2.1'
