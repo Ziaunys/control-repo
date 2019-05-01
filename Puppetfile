@@ -16,7 +16,10 @@ mod 'puppetlabs-puppet_authorization', '0.5.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
-mod 'cd4pe', :git => 'git@github.com:Ziaunys/puppetlabs-cd4pe.git', :branch => 'master'
+mod 'puppetlabs-cd4pe', :latest
+# Always pull the latest clamps module code
+mod 'clamps',
+  :git => 'https://github.com/puppetlabs/clamps.git'
 mod 'puppetlabs-hocon', '1.0.1'
 mod 'puppetlabs-docker', '3.3.0'
 mod 'puppetlabs-apt', '6.2.1'
