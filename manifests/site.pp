@@ -33,7 +33,7 @@ node default {
   notify { 'test_notify':
 	message => "Hello! This is a test."
   }
-  if $certname =~ /^user[1-3].*$/ {
+  if $trusted['certname'] =~ /^user[1-3].*$/ {
       fail("Lets fail!")
   }
 }
